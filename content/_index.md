@@ -1,5 +1,5 @@
 ---
-description: Experiencing the world through light and Lens.
+description: Experiencing the World through Light and Lens.
 #lastmod: 2023-07-05
 title: The Field Approach
 resources:
