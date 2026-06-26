@@ -8,5 +8,5 @@ menus: "main"
 resources:
   - src: DSC02612.jpg
     params:
-      cover: true
+      cover: false
 ---
