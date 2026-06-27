@@ -1,6 +1,6 @@
 ---
 description: A collection of photos capturing animals in context with nature.
-keywords: [Animals, Photos, Wildlife]
+keywords: [Wildlife]
 title: Wildlife
 weight: 1
 menus: "main"
