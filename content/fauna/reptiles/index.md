@@ -1,7 +1,7 @@
 ---
 date: 2026-06-26
 title: Reptiles
-categories: ["wildlife"]
+categories: ["fauna"]
 resources:
   - src: milli-2l0CWTpcChI-unsplash.jpg
     params:

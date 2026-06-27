@@ -2,7 +2,7 @@
 date: 2026-06-26
 title: Birds
 sort_by: Name
-categories: ["wildlife"]
+categories: ["fauna"]
 resources:
   - src: alexander-london-mJaD10XeD7w-unsplash.jpg
     title: Placeholder
