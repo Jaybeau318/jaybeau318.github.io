@@ -12,5 +12,6 @@ params:
 resources:
   - src: SanLuisReservoir_20231228.jpg
     params:
-      cover: true
+    cover: true
+  - src:  2019DSC05202.jpg
 ---
