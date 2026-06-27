@@ -1,4 +1,4 @@
 ---
 title: Landscapes
-description: Wild Expanses
+description: Capturing Nature
 ---

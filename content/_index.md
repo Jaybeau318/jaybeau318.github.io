@@ -1,7 +1,7 @@
 ---
 description: Experiencing the World through Light and Lens
 #lastmod: 2026-06-25
-title: Photo Gallery by James Centanni
+title: The Field Approach
 resources:
   - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
     params:
