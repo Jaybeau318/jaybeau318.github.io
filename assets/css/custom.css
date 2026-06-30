@@ -1,0 +1,18 @@
+/* custom.css */
+
+.gallery-item figure {
+  position: relative;
+}
+
+.gallery-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 0.7em;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
