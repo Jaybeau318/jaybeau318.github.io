@@ -7,6 +7,10 @@
       {{ $aperture := "" }}
       {{ $shutter := "" }}
       {{ $iso := "" }}
+      {{ $make := "" }}
+      {{ $model := "" }}
+      {{ $lensmodel := "" }}
+      {{ $focallength := "" }}
       {{ $caption := "" }}
       {{ with $image.Exif }}
         {{ with .Tags.CreateDate}}
@@ -30,6 +34,22 @@
 	  {{/* ISO number from EXIF */}}
 	  {{ $iso = . }}
 	{{ end }}
+	{{ with .Tags.Make }}
+	  {{/* Camera make from EXIF */}}
+	  {{ $make = . }}
+	{{ end }}
+	{{ with .Tags.Model }}
+	  {{/* Camera model from EXIF */}}
+	  {{ $model = . }}
+	{{ end }}
+	{{ with .Tags.LensModel }}
+	  {{/* Lens model from EXIF */}}
+	  {{ $lensmodel = . }}
+	{{ end }}
+	{{ with .Tags.FocalLength }}
+	  {{/* Focal length from EXIF */}}
+	  {{ $focallength = . }}
+	{{ end }}
       {{ end }}
       {{ if ne $image.Title $image.Name }}
         {{/* Title from front matter */}}
@@ -40,7 +60,7 @@
         {{ $date = time $image.Params.Date }}
       {{ end }}
       {{ if $date }}
-     	{{ $caption = printf "%s\nf/%0.1f %s ISO %d\n%s" $title $aperture $shutter $iso ($date.Format "Jan 2, 2006") }}
+     	{{ $caption = printf "%s\nf/%0.1f %s ISO %d\n%s %s\n%s\n%smm\n%s" $title $aperture $shutter $iso $make $model $lensmodel $focallength ($date.Format "Jan 2, 2006") }}
       {{ else }}
 	{{ $caption = $title }}
       {{ end }}
